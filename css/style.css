@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: sans-serif;
 }
 /*Header Start*/
 header{
@@ -33,7 +34,6 @@ header{
 }
 
 .menu ul li a{
-	font-family: sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	color: #FFFDFE;
@@ -60,7 +60,6 @@ header{
 	background-position: center;
 }
 .banner-content{
-	font-family: sans-serif;
 	margin: 250px 0 95px;
 	width:47%;
 
@@ -112,7 +111,7 @@ button:focus {
 
 .single {
 	width: 29%;
-	padding: 15px 20px;
+	padding: 15px 21px;
 	float: left;
 	border-right: 1px solid rgba(145, 149, 160, .1);
 	margin-right: 10px;
@@ -122,6 +121,7 @@ button:focus {
 }
 .single:last-child {
 	border-right: 0;
+	padding-right: 0;
 }
 .title {
 	overflow: hidden;
@@ -141,21 +141,18 @@ button:focus {
 	margin: 10px 0 0 5px;
 }
 .icon-content h1{
-	font-family: sans-serif;
 	color: white;
 	text-transform: capitalize;
 	font-size: 20px;
 	font-weight: normal;
 }
 .icon-content h2{
-	font-family: sans-serif;
+
 	color: #0079BF;
 	text-transform: capitalize;
 	font-size: 22px;
 }
 .content p{
-	font-family: sans-serif;
-	font-size:15px ;
 	color: white;
 	line-height: 1.4;
 }
@@ -166,9 +163,6 @@ button:focus {
 }
 
 .about-content {
-	
-	width: 100%;
-	margin: 0 auto;
 	color:white;
 	overflow: hidden;
 	padding: 50px 0;
@@ -185,7 +179,6 @@ button:focus {
 	margin-top: 15px;
 }
 .about-item span{
-	font-family: sans-serif;
 	color: #0079BF;
 	text-transform: capitalize;
 	font-size: 22px;
@@ -256,7 +249,6 @@ table{
 	color: white;
 }
 .app-store .text h2{
-	font-family: sans-serif;
 	color: #0079BF;
 	text-transform: capitalize;
 	font-size: 22px;
