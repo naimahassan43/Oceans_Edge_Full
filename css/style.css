@@ -9,8 +9,8 @@ header{
 }
 .container {
 	overflow: hidden;
-    width: 80%;
-    margin: 0 auto;
+	width: 80%;
+	margin: 0 auto;
 }
 .logo {
 	width: 15%;
@@ -21,10 +21,10 @@ header{
 }
 .menu{
 	width: 70%;
-    float: right;
+	float: right;
     }
-.menu ul{
-    float: right;
+.menu ul{		
+	float: right;
 }
 .menu ul li{
 	list-style: none;
@@ -41,7 +41,7 @@ header{
 	text-transform: uppercase;
 	padding: 0 20px;
 	margin-top: 38px;
-    display: block;
+	display: block;
 	transition: 0.5s;
 
 }
@@ -81,17 +81,29 @@ header{
 	line-height: 1.5;
 }
 
-.banner-content button{
-	border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: #6F6F6F;
-    font-size: 20px;
-    margin-top: 20px;
-    background-color: #FFFEFF;
-    text-transform: uppercase;
+button{
+	width: 160px;
+	height: 60px;
+	font-size: 20px;
+	color: #6F6F6F;
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: #FFFEFF;
+	text-transform: uppercase;
+	border: 1px solid #626262;
+	cursor: pointer;
+	transition: .3s;
 	}
+button:hover {
+	background-color: #0079BF;
+	color: white;
+}
+
+button:focus {
+    outline: 0;
+}
 /*Banner End*/
+
 /*Service Start*/
 .service {
 	background-color: #121B2C;
@@ -140,8 +152,6 @@ header{
 	color: #0079BF;
 	text-transform: capitalize;
 	font-size: 22px;
-}
-.content {
 }
 .content p{
 	font-family: sans-serif;
@@ -202,7 +212,7 @@ table{
 
 .about-item .talk-box{
 	width: 90%;
-    padding: 15px;
+  padding: 15px;
 	background-color:#0C1019;
 	border-radius: 5px;
 	position: relative;
@@ -239,8 +249,6 @@ table{
 	float: left;
 }
 
-.app-store .image img{
-}	
 .text{
 	float: right;
 }
@@ -253,7 +261,7 @@ table{
 	text-transform: capitalize;
 	font-size: 22px;
 }
-.text .icon{}
+
 .text .icon img{
 	padding: 20px 0;
 	width: 130px;
@@ -278,8 +286,6 @@ footer{
 	display: inline;
 }
 .copyright ul li a{
-	font-size: 16px;
-	font-weight: 400;
 	color: #fff;
 	display: inline-block;
 	text-transform: capitalize;
@@ -298,8 +304,6 @@ footer{
 	color: #007AC4;
 }
 .copyright p {
-	font-size: 16px;
-	font-weight: 300;
 	text-transform: capitalize;
 	color: #fff;
 	margin-top: 15px;
